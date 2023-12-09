@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/opensans/OpenSans-regular.woff2) format('woff2'),
+         url(../fonts/opensans/OpenSans-regular.woff) format('woff'),
+         url(../fonts/opensans/OpenSans-bold.woff2) format('woff2'),
+         url(../fonts/opensans/OpenSans-bold.woff) format('woff'),
+}
+
+@font-face{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/merriweather/merriweather-regular.woff2) format('woff2'),
+         url(../fonts/merriweather/merriweather-regular.woff) format('woff'),
+         url(../fonts/merriweather/merriweather-bold.woff2) format('woff2'),
+         url(../fonts/merriweather/merriweather-bold.woff) format('woff'),
+}

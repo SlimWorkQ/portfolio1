@@ -1,0 +1,44 @@
+$fonts_OS: 'OpenSans', sans-serif;
+$fonts_M: 'Merriweather', serif;
+$color_black: #2e2e2e;
+$color_silver: #ffffff;
+$color_yellow: #f8ae03;
+$fz_16: 16px;
+$fz_22: 22px;
+$fz_18: 18px;
+$fw_400: 400;
+$fw_700: 700;
+
+
+@mixin breakpoint($point) {
+
+    @if $point == lg {
+        @media(max-width: 1115px) {@content;}
+    }
+    @else if $point == mds {
+        @media(max-width: 900px) {@content;}
+    }
+    @else if $point == md {
+        @media(max-width: 768px) {@content;}
+    }
+    @else if $point == sm {
+        @media(max-width: 576px) {@content;}
+    }
+    @else if $point == xxs {
+        @media(max-width: 450px) {@content;}
+    }
+    @else if $point == xs {
+        @media(max-width: 375px) {@content;}
+    }
+    @else if $point == s {
+        @media(max-width: 320px) {@content;}
+    }
+}
+
+%title{
+    font-family: $fonts_M;
+    text-transform: uppercase;
+    font-size: $fz_22;
+    font-weight: $fw_400;
+    color: $color_black;
+}
